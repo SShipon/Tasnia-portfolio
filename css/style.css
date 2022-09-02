@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif; */
+}
+.header_section{
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+}
+.main_container{
+    display: flex;
+}
+h2{
+
+}
+
+p{
+
+}
+
+.btn_hero{
+    background-color: purple;
+    width: 168px;
+    height: 34px;
+}
