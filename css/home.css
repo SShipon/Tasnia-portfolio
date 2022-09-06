@@ -19,6 +19,14 @@ nav{
     padding-right: 10%;
     flex-wrap: wrap;
 }
+.logo{
+    color: #ea005e;
+    font-family: 'Roboto', sans-serif;
+}
+.logo:hover{
+    color: #21f7db;
+    transition: 2s;
+}
 nav ul li{
     list-style: none;
     display: inline-block;
@@ -51,13 +59,17 @@ nav ul li a:hover{
     background-color: grey;
     width: 100%;
     height: 100%;
+    padding-bottom: 10px;
 }
 .main_container{
      display: flex;
      justify-content: space-evenly;
      align-items: center; 
 }
-
+.parent_container p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
 .btn_hero{
     background-color: #ea005e;
      padding:20px 50px;
@@ -76,4 +88,32 @@ nav ul li a:hover{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 1rem;
+}
+.parent_container img{
+  width: 350px;
+  height: 400px;
+}
+.parent_container img:hover{
+  transform:  rotate(60deg);
+  transition: 2s;
+}
+
+
+/* header is completed ui */
+
+.my-service{
+    background-color:rgb(194, 181, 181);
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10px;
+}
+#text-title{
+    text-align: center;
+    padding: 10px;
+}
+.main-service-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: space-around;
 }
